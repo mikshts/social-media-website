@@ -1,0 +1,53 @@
+{% load static  %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snag - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="auth.css"> </head>
+<body class="auth-page dark-theme">
+    <div class="auth-container">
+        <div class="auth-sidebar">
+            <div class="logo">Snag</div>
+            <p class="tagline">Join our community of creators and enthusiasts!</p>
+            </div>
+        <div class="auth-content">
+            <h2>Sign Up for Snag</h2>
+            <form class="auth-form" id="signupForm">
+                <div class="input-group">
+                    <label for="signup-username">Username</label>
+                    <input type="text" id="signup-username" name="signup-username" required>
+                </div>
+                <div class="input-group">
+                    <label for="signup-email">Email Address</label>
+                    <input type="email" id="signup-email" name="signup-email" required>
+                </div>
+                <div class="input-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" name="signup-password" required>
+                </div>
+                <div class="input-group">
+                    <label for="signup-confirm-password">Confirm Password</label>
+                    <input type="password" id="signup-confirm-password" name="signup-confirm-password" required>
+                </div>
+                <button type="submit" class="auth-button primary-button">Sign Up</button>
+            </form>
+            <div class="auth-links">
+                <p>Already have an account? <a href="signin.html">Sign In</a></p>
+            </div>
+        </div>
+        <div class="auth-footer">
+            <ul>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>

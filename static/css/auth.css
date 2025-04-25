@@ -1,0 +1,134 @@
+/* auth.css */
+
+.auth-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #18191a; /* Example dark background */
+    color: #e4e6eb; /* Example light text */
+}
+
+.auth-sidebar {
+    flex: 0 1 30%; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.auth-sidebar .logo {
+    font-size: 2em; /* Adjust size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3a86e9; /* Example accent color */
+}
+
+.auth-sidebar .tagline {
+    font-size: 0.9em;
+    color: #b0b3b8;
+}
+
+.auth-content {
+    flex: 1 1 70%; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.auth-content h2 {
+    margin-bottom: 20px;
+    color: #e4e6eb;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 0.9em;
+    color: #b0b3b8;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #3a3b3c; /* Example border color */
+    background-color: #303132; /* Example input background */
+    color: #e4e6eb;
+    border-radius: 5px;
+}
+
+.auth-button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.primary-button {
+    background-color: #3a86e9; /* Example primary button color */
+    color: white;
+}
+
+.auth-links {
+    font-size: 0.9em;
+    color: #b0b3b8;
+    text-align: center;
+}
+
+.auth-links a {
+    color: #3a86e9;
+    text-decoration: none;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
+
+.auth-footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #3a3b3c; /* Example footer border */
+}
+
+.auth-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.auth-footer ul li a {
+    color: #b0b3b8;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.auth-footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* auth.css */
+
+/* ... existing styles ... */
+
+.explanatory-text {
+    color: #b0b3b8;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: center; /* Optional: Center the text */
+}
